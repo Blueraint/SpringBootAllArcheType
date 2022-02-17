@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  tomcat:
+    uri-encoding: UTF-8
+
+spring:
+  profiles:
+    active: dev, databases
+
+logging:
+  level:
+    root: info
+    com.springboot.springsecurity: debug
