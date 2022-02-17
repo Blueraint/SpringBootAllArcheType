@@ -29,4 +29,5 @@ public class SpringbootAllArchetypeApplication implements ApplicationListener<Ap
 		log.debug(readyMessage);
 		log.debug("#########################");
 	}
+
 }

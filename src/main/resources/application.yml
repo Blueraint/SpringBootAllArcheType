@@ -5,7 +5,19 @@ server:
 
 spring:
   profiles:
-    active: dev, databases
+    active: dev, database
+  thymeleaf:
+    prefix: classpath:templates/
+    suffix: .html
+    check-template: true
+    cache: false
+    check-template-location: true
+    mode: HTML5
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
 
 logging:
   level:

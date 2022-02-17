@@ -5,6 +5,7 @@ import com.spring.SpringbootAllArchetype.domain.dept.Dept;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.ToString;
 
 /**
  * RestController API 와 resource Entity 변환을 위한 Object
@@ -12,6 +13,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
+@ToString
 @NoArgsConstructor
 public class ResponseDeptDto extends MessageDto {
     private Integer deptNo;
